@@ -5,7 +5,9 @@ module.exports = {
   },
   'extends': [
     'plugin:vue/vue3-essential',
-    'eslint:recommended'
+    'eslint:recommended',
+    // 'prettier',
+    // 'prettier/vue'
   ],
   parserOptions: {
     ecmaVersion: 2020
